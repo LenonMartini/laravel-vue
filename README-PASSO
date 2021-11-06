@@ -1,0 +1,11 @@
+LARAVEL
+
+1 - INSTALAÇÃO DO LARAVEL
+2 - AJUSTAR O TIMEZONE EM CONFIG/APP.PHP (America/Sao_Paulo)
+3 - .env -> ajustar o nome da aplicação e a url
+4 - Criar a model junto com a migrate(não é obrigatorio)
+5 - Criar os Controllers { e seus metodos}
+6 - Criar as Rotas de api
+7 - Preparar o laravel para uploud de imagem e arquivos (config/filesystems.php -> deixa ['default' => env('FILESYSTEM_DRIVER', 'public')],)
+        -> rodar comando (php artisan storage:link)
+8 - Criar o versionamento na route api e nos controllers
